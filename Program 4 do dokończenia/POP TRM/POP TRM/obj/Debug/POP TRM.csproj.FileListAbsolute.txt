@@ -1,0 +1,19 @@
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\POP TRM.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\POP TRM.pdb
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\obj\Debug\POP TRM.csprojResolveAssemblyReference.cache
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\obj\Debug\POP TRM.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\obj\Debug\POP TRM.pdb
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\WebDriver.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\WebDriver.Support.dll
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\WebDriver.xml
+c:\users\michau\documents\visual studio 2017\Projects\POP TRM\POP TRM\bin\Debug\WebDriver.Support.xml
