@@ -9,14 +9,22 @@ namespace POP_TRM.TMNewClient
 {
     class TMNewClientElementMap
     {
+        private IWebDriver driver;
+        
         //Constructor
-        TMNewClientElementMap(IWebDriver TempDriver)
+        public TMNewClientElementMap(IWebDriver TempDriver)
         {
             driver = TempDriver;
         }
 
         //Fields
-        IWebDriver driver;
+        public IWebElement FullForm
+        {
+            get
+            {
+                return driver.FindElement(By.ClassName("form-horizontal"));
+            }
+        }
 
             //Text fields
         public IWebElement Id
@@ -113,7 +121,7 @@ namespace POP_TRM.TMNewClient
         {
             get
             {
-                return AssertElementFind("//*[class=\"modal-footer\"]//button[2]");
+                return AssertElementFind("//*[@class=\"modal-footer\"]//button[2]");
             }
         }
 
@@ -134,7 +142,7 @@ namespace POP_TRM.TMNewClient
 
         private IWebElement FindElementClientField(int Order)
         {
-            return AssertElementFind("//div[class=\"form-group\"][" + Order + "]");
+            return AssertElementFind("//div[1]/div/input");
         }
     }
 }

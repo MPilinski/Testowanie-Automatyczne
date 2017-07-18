@@ -1,25 +1,40 @@
 ﻿using OpenQA.Selenium;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POP_TRM.TMNewClient
 {
     class TMNewClientValidator
     {
         //Constructor
-        TMNewClientValidator(IWebDriver TempDriver)
+        public TMNewClientValidator(IWebDriver TempDriver)
         {
             driver = TempDriver;
         }
 
         //Fields
         IWebDriver driver;
+        TMNewClientElementMap Map
+        {
+            get
+            {
+                return new TMNewClientElementMap(driver);
+            }
+        }
 
         //Methods
-        //public bool AllFields
-
+        public bool VerifieForm()
+        {
+            IWebElement Temp;
+            try
+            {
+                Temp = Map.FullForm.FindElement(By.XPath("//input[class=\"form-control validation-error\""));
+            }
+            catch
+            {
+                return true;
+            }
+            Console.WriteLine(Temp.Text);
+            return false;
+        }
     }
 }

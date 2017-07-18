@@ -45,7 +45,7 @@ namespace POP_TRM.TMMainPage
         {
             get
             {
-                return AssertElementFind("//*[@id=\"clients\"]\\button");
+                return AssertElementFind("//*[@id=\"clients\"]//button");
             }
         }
 

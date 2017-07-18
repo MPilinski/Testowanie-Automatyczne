@@ -16,11 +16,15 @@ namespace POP_TRM
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             TMLogInPage.TMLogInPage StronaLogowania = new TMLogInPage.TMLogInPage(driver);
             TMMainPage.TMMainPage StronaGlowna = new TMMainPage.TMMainPage(driver);
+            TMNewClient.TMNewClient StronaTworzeniaKlienta = new TMNewClient.TMNewClient(driver);
 
             StronaLogowania.Navigate();
             StronaLogowania.LogIn("mpilinski@it-project.net.pl", "5U3qauq6");
 
-            StronaGlowna.Navigate("Admin");
+            StronaGlowna.Navigate("Klienci");
+            StronaGlowna.Map.AddClient.Click();
+
+            StronaTworzeniaKlienta.Map.Id.Click();
         }
     }
 }
