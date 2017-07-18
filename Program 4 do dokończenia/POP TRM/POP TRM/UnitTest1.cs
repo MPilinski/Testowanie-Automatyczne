@@ -24,7 +24,7 @@ namespace POP_TRM
             StronaGlowna.Navigate("Klienci");
             StronaGlowna.Map.AddClient.Click();
 
-            StronaTworzeniaKlienta.Map.Id.Click();
+            StronaTworzeniaKlienta.Map.SaveButton.Click();
         }
     }
 }

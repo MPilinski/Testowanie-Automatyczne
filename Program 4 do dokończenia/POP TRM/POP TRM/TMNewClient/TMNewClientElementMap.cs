@@ -113,7 +113,7 @@ namespace POP_TRM.TMNewClient
         {
             get
             {
-                return AssertElementFind("//*[class=\"modal-footer\"]//button[1]");
+                return AssertElementFind("/html/body/div[2]/div/div/div[3]/button[1]");
             }
         }
 
@@ -142,7 +142,7 @@ namespace POP_TRM.TMNewClient
 
         private IWebElement FindElementClientField(int Order)
         {
-            return AssertElementFind("//div[1]/div/input");
+            return AssertElementFind("/html/body/div[2]/div/div/div[2]/div/div[1]/div");
         }
     }
 }
