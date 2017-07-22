@@ -140,9 +140,9 @@ namespace POP_TRM.TMNewClient
             }
         }
 
-        private IWebElement FindElementClientField(int Order)
+        public IWebElement FindElementClientField(int Order)
         {
-            return AssertElementFind("(//div[@class=\"form-group\"])[1]//input");
+            return AssertElementFind("(//div[@class=\"form-group\"])[" + Order + "]//input");
         }
     }
 }

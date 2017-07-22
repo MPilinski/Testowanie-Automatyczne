@@ -33,6 +33,14 @@ namespace POP_TRM.TMMainPage
             }
         }
 
+        public IWebElement Search
+        {
+            get
+            {
+                return AssertElementFind("//*[@id=\"datatable2_filter\"]/label/input");
+            }
+        }
+
         public IWebElement DropDownProfil
         {
             get

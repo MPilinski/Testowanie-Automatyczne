@@ -30,6 +30,11 @@ namespace POP_TRM.TMMainPage
             return new TMMainPageValidator(driver);
         }
 
+        public void ClickNewClient()
+        {
+            Map.AddClient.Click();
+        }
+
         public void Navigate(string Where)
         {
             switch (Where)
@@ -53,6 +58,12 @@ namespace POP_TRM.TMMainPage
                     Console.WriteLine(System.DateTime.Now + " - Nie znaleziono opcji " + Where + " w menu glownym");
                     break;
             }
+        }
+
+        public void Search(string WhatToSearch)
+        {
+            Map.Search.SendKeys(WhatToSearch);
+
         }
     }
 }
