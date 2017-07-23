@@ -14,9 +14,11 @@ namespace POP_TRM.TMNewClient
         public TMNewClient(IWebDriver TempDriver)
         {
             driver = TempDriver;
+            wait = new WebDriverWait(TempDriver, TimeSpan.FromSeconds(30));
         }
 
         IWebDriver driver;
+        WebDriverWait wait;
 
         public TMNewClientElementMap Map
         {
@@ -67,6 +69,11 @@ namespace POP_TRM.TMNewClient
             }
 
             Reader.Close();
+        }
+
+        public void WindowOpenWait()
+        {
+            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[@class=\"modal-content\"]")));
         }
     }
 }
