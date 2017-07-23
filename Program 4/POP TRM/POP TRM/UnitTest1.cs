@@ -13,7 +13,7 @@ namespace POP_TRM
         [TestMethod]
         public void PustePola()
         {
-        ExecuteTestClientCreating("PustePola.csv", 0, "mpilinski@it-project.net.pl", "5U3qauq6");
+        ExecuteTestClientCreating("PustePola.csv", 0, "login", "haslo");
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace POP_TRM
         {
             for(int i=0;i<4;i++)
             {
-                ExecuteTestClientCreating("PrawidlowePola.csv", i, "mpilinski@it-project.net.pl", "5U3qauq6");
+                ExecuteTestClientCreating("PrawidlowePola.csv", i, "login", "haslo");
             }
         }
 
@@ -30,7 +30,7 @@ namespace POP_TRM
         {
             for (int i = 0; i < 4; i++)
             {
-                ExecuteTestClientCreating("PrawidlowePola.csv", i, "mpilinski@it-project.net.pl", "5U3qauq6");
+                ExecuteTestClientCreating("PrawidlowePola.csv", i, "login", "haslo");
             }
         }
 
