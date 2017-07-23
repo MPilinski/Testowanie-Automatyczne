@@ -35,15 +35,17 @@ namespace POP_TRM
         }
 
 
+
         public bool ExecuteTestClientCreating(string DataSetPath, int Row, string Login, string Password)
         {
-            Regex RegexPath = new Regex(@"[\w]*[.]csv");
+            Regex RegexPath = new Regex(@"^[\w]*[.]csv");
             Match Match = RegexPath.Match(DataSetPath);
 
             //Sprawdzenie danych wejściowych
             if (!Match.Success || Row<0)
             {
                 Console.WriteLine("Błąd danych wejściowych funkcj ExecuteTestClientCreating");
+                Assert.Fail();
                 return false;
             }
 
